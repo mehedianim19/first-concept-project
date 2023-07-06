@@ -119,7 +119,7 @@
     width: 70px;
 }
 .box-btn{
-    background-color: gray;
+    /* background-color: gray; */
     margin-top: 10px;
 }
 .box-title{
@@ -128,10 +128,63 @@
 .box-description{
     padding: 5px;
 }
-
+.service{
+    background-image: url("./images/background.png"),
+    linear-gradient(45deg,#000, #000);
+    color: white;
+}
 .service-container{
     display: flex;
     justify-content: space-around;
     padding: 20px;
-    background-image: url("./images/background.png"),linear-gradient(45deg,#000, #000);
+  
     
+}
+
+#classs{
+    background-image: url(./images/background.png);
+}
+
+/* contact us section starts here */
+.contact-container{
+    background-color: #262525;
+    color: white;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-image: url("https://img.freepik.com/free-photo/red-light-round-podium-black-background-mock-up_43614-950.jpg?w=740&t=st=1688654323~exp=1688654923~hmac=c9954f20f399b5d842a4195dbac01da6f6f3abdefa8e2828f73b8a19196172aa");
+    
+    
+   
+}
+.about-list{
+    list-style: none;
+    margin: 5px;
+    font-size: 17px;
+    
+}
+.contact-title{
+    font-size: 25px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-weight: bold;
+    align-items: center;
+}
+.contact-container-title{
+    font-size: 17px;
+    width: 180px;
+    height: 280px;
+    padding-top: 30px;
+    margin: 25px;
+    align-items: center;
+    cursor: pointer;
+}
+/* footer */
+.foot{
+    margin-bottom: 12px;
+    padding-top: 12px;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
